@@ -25,3 +25,9 @@
     return duzelt.toLocaleLowerCase("tr").split(" ").join("");
     //kelime de hatalı girişi önleyen kod...
 }
+
+function kayboldun(){
+    alert("KAYBOLDUN SONSUZLUKLARDA\n başa dönüyorsun")
+    return main()
+    //evrende kaybolmasından ötürü 2.son
+}
