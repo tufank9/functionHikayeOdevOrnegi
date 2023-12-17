@@ -51,3 +51,25 @@ function basaDon(){
                 return basaDon()
             }
 }
+
+function alternatifSon1(){
+    /*
+    tamamen bir alternatif son oluşturuldu. sadece ilki :D
+    hikayeye devam edersem eğer yenisi oluşur.
+    btw bu da bir son
+    */
+
+    alert("gerçekten hikayenin ilk sonuna mı gittin\nyoksa şuan hikayenin sonunda mısın")
+    alert("hiçbir son asla gerçek son değildir.\nher gittiğin son yeni alternatiflik oluşturur.")
+    let cevap=prompt("nereye gitmek istersin (son/başa)")
+    if(kelime(cevap)=="son"){
+        alert("alternatif sonluklarda kaybolmayı göze alıyorsun.\nyerinde kalmak en iyisi")
+        return basaDon()
+    }
+        else if(kelime(cevap)=="başa"){
+            return main()
+    }
+    else{
+        return alternatifSon1()
+    }
+}
