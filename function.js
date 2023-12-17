@@ -21,3 +21,7 @@
     return alternatifSon1()
  }
  
+ function kelime(duzelt) {
+    return duzelt.toLocaleLowerCase("tr").split(" ").join("");
+    //kelime de hatalı girişi önleyen kod...
+}
