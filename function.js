@@ -84,3 +84,16 @@ function donguKirildi(){
     //geçici olarak son yazıldı bu da 5.olması lazım 
     alert("belki de döngü kırıldı. başka bir evrende en güzel halinde...")
 }
+
+function devam(){
+    //evren gezisine açılan kapı 
+    let cevap=prompt("1-bu evrende mi kalmak istersin\n2-diğer evrenlere gitmek mi istersin?")
+    if(cevap==1){
+        alert(`burası son evren. her son yeni alternatiflik yaratır.
+               döngüyü kırmak için asla sonun gelmeyeceğini bil.`)
+                return donguKir()
+    }
+    else if(cevap==2){
+        return evrenGezisi()
+    }
+}
