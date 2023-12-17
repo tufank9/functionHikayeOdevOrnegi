@@ -97,3 +97,14 @@ function devam(){
         return evrenGezisi()
     }
 }
+
+function donguKir(){
+    //sonsuzluk döngüsünde ki sorgu.
+    let cevap=prompt("döngüyü kırmak ister misin? evet/hayır")
+    if(kelime(cevap)=="evet"){
+        return donguKirildi()
+    }
+    else if(kelime(cevap)=="hayır"){
+        return evrenGezisi()
+    }
+}
