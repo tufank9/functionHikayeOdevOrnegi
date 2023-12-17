@@ -73,3 +73,9 @@ function alternatifSon1(){
         return alternatifSon1()
     }
 }
+
+function donguKırıldı(){
+    //dongü acaba kırıldı mı?
+    alert("yanıldın...\nbaşa gidiyorsun...")
+    return main()
+}
