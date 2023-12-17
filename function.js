@@ -31,3 +31,9 @@ function kayboldun(){
     return main()
     //evrende kaybolmasından ötürü 2.son
 }
+
+function evrenGezisi(){
+    alert("SONSUZLUK DÖNGÜSÜ KIRILMADI")
+    return kayboldun()
+    //sonsuzluktan ötürü 3.son
+}
