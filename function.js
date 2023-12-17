@@ -79,3 +79,8 @@ function donguKırıldı(){
     alert("yanıldın...\nbaşa gidiyorsun...")
     return main()
 }
+
+function donguKirildi(){
+    //geçici olarak son yazıldı bu da 5.olması lazım 
+    alert("belki de döngü kırıldı. başka bir evrende en güzel halinde...")
+}
