@@ -7,6 +7,6 @@
  function sorgu(){
     let cevap=prompt("Sona mı gitmek istersin yoksa devam mı etmek istersin? (son/devam)")
     if (kelime(cevap)=="son") {
-        
+        return son()
     }
  }
