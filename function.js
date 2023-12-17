@@ -12,6 +12,9 @@
     else if(kelime(cevap)=="devam"){
         return devam() 
     }
+    else{
+        return sorgu()
+    }
  }
  function son(){
     alert("hikayenin ilk sonu")
