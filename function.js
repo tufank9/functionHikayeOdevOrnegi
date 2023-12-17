@@ -5,5 +5,5 @@
  main()
 
  function sorgu(){
-    
+    let cevap=prompt("Sona mı gitmek istersin yoksa devam mı etmek istersin?")
  }
